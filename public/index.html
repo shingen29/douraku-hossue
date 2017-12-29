@@ -3,10 +3,30 @@
   <head>
     <meta charset="utf-8">
     <title>道楽人形復活祭特設サイト</title>
+    <link rel="stylesheet" type="text/css" href="./lib/slick/slick.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="./lib/slick/slick-theme.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" media="screen">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="./lib/slick/slick.min.js"></script>
   </head>
   <body>
-    <div class="header">
-      <h2>道楽人形復活祭</h2>
+    <div class="container">
+      <header class="header">
+      </header>
     </div>
+    <div>
+      <ul class="slider">
+        <li><a href="#"><img src="./assets/images/slider_1.JPG"></a></li>
+        <li><a href="#"><img src="./assets/images/slider_2.JPG"></a></li>
+        <li><a href="#"><img src="./assets/images/slider_3.JPG"></a></li>
+        <li><a href="#"><img src="./assets/images/slider_4.JPG"></a></li>
+        <li><a href="#"><img src="./assets/images/slider_5.JPG"></a></li>
+      </ul>
+    </div>
+<script>
+  $(function() {
+    $('.slider').slick();
+  });
+</script>
   </body>
 </html>

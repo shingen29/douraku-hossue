@@ -34,7 +34,7 @@ module.exports = {
     src: [
       src + '/assets/stylus/**/!(_)*'
     ],
-    dest: dest + '/css/',
+    dest: dest + '/assets/css/',
     output: 'style.css',  // 出力ファイル名
     autoprefixer: {
       browsers: ['last 2 versions']
