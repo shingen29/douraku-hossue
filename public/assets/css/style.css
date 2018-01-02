@@ -16,28 +16,47 @@ body {
   font-size: 1.15em;
   font-family: Arial;
 }
-.index0 .bx-caption {
+#index0 {
+  background-image: url("../images/slider_0.JPG");
+}
+#index0 .bx-caption {
   top: 20px;
   left: 20px;
 }
-.index1 .bx-caption {
+#index1 {
+  background-image: url("../images/slider_1.JPG");
+}
+#index1 .bx-caption {
   top: 50px;
   left: 50px;
 }
-.index2 .bx-caption {
+#index2 {
+  background-image: url("../images/slider_2.JPG");
+}
+#index2 .bx-caption {
   top: 80px;
   left: 80px;
 }
-.index3 .bx-caption {
+#index3 {
+  background-image: url("../images/slider_3.JPG");
+}
+#index3 .bx-caption {
   top: 110px;
   left: 110px;
 }
-.index4 .bx-caption {
+#index4 {
+  background-image: url("../images/slider_4.JPG");
+}
+#index4 .bx-caption {
   top: 140px;
   left: 140px;
 }
-.slider img {
-  width: 100% !important;
+.slider .slider-item {
+  height: 600px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 .inner {
   padding: 100px 50px 50px;
