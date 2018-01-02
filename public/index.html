@@ -17,11 +17,18 @@
         <h2>道楽人形復活祭特設サイト</h2>
       </header>
       <div class="slider">
-        <img src="assets/images/slider_0.jpg">
-        <img src="assets/images/slider_1.jpg">
-        <img src="assets/images/slider_2.jpg">
-        <img src="assets/images/slider_3.jpg">
-        <img src="assets/images/slider_4.jpg">
+        <!--
+        <div style="background-image: url(assets/images/slider_0.jpg)"></div>
+        <div style="background-image: url(assets/images/slider_1.jpg)"></div>
+        <div style="background-image: url(assets/images/slider_2.jpg)"></div>
+        <div style="background-image: url(assets/images/slider_3.jpg)"></div>
+        <div style="background-image: url(assets/images/slider_4.jpg)"></div>
+        -->
+        <div class="index0"><img src="assets/images/slider_0.jpg" title="いちにちだけの"></div>
+        <div class="index1"><img src="assets/images/slider_1.jpg" title="ムラビトになれる"></div>
+        <div class="index2"><img src="assets/images/slider_2.jpg" title="わらでにんぎょうをつくり"></div>
+        <div class="index3"><img src="assets/images/slider_3.jpg" title="はいこうでごはんをたべ"></div>
+        <div class="index4"><img src="assets/images/slider_4.jpg" title="えがおになる"></div>
       </div>
     </div>
 <script>
@@ -30,9 +37,10 @@ $(function() {
     mode: 'fade',
     speed: 2000,
     auto: true,
-    pause: 8000,
+    pause: 4000, // 本番は8000ミリ秒くらいかな
     controls: false,
     pager: false,
+    captions: true,
   });
 });
 </script>

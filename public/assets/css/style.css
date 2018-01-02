@@ -1,3 +1,6 @@
+body {
+  background: url("../images/bg_01.png") repeat left top;
+}
 .bx-wrapper {
   margin: 0 !important;
   -webkit-box-shadow: none !important;
@@ -5,7 +8,45 @@
   border: none !important;
   background: none !important;
 }
-.bxslider img {
+.bx-wrapper .bx-caption {
+  background-color: unset;
+}
+.bx-wrapper .bx-caption span {
+  color: #555;
+  font-size: 1.15em;
+  font-family: Arial;
+}
+.index0 .bx-caption {
+  bottom: -20px;
+  left: 20px;
+}
+.index1 .bx-caption {
+  bottom: -50px;
+  left: 50px;
+}
+.index2 .bx-caption {
+  bottom: -80px;
+  left: 80px;
+}
+.index3 .bx-caption {
+  bottom: -110px;
+  left: 110px;
+}
+.index4 .bx-caption {
+  bottom: -140px;
+  left: 140px;
+}
+.slider div {
+  height: 600px;
+/* 画像を常に天地左右の中央に配置 */
+  background-position: center center;
+/* 画像をタイル状に繰り返し表示しない */
+  background-repeat: no-repeat;
+/* コンテンツの高さが画像の高さより大きい時、動かないように固定 */
+  background-attachment: fixed;
+/* 表示するコンテナの大きさに基づいて、背景画像を調整 */
+  background-size: cover;
+}
+.slider img {
   width: 100% !important;
-  height: auto !important;
 }
