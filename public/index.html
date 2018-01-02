@@ -2,31 +2,39 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>道楽人形復活祭特設サイト</title>
-    <link rel="stylesheet" type="text/css" href="./lib/slick/slick.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="./lib/slick/slick-theme.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" media="screen">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" media="screen">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="./lib/slick/slick.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
   </head>
   <body>
     <div class="container">
       <header class="header">
+        <h2>道楽人形復活祭特設サイト</h2>
       </header>
-    </div>
-    <div>
-      <ul class="slider">
-        <li><a href="#"><img src="./assets/images/slider_1.JPG"></a></li>
-        <li><a href="#"><img src="./assets/images/slider_2.JPG"></a></li>
-        <li><a href="#"><img src="./assets/images/slider_3.JPG"></a></li>
-        <li><a href="#"><img src="./assets/images/slider_4.JPG"></a></li>
-        <li><a href="#"><img src="./assets/images/slider_5.JPG"></a></li>
-      </ul>
+      <div class="slider">
+        <img src="assets/images/slider_0.jpg">
+        <img src="assets/images/slider_1.jpg">
+        <img src="assets/images/slider_2.jpg">
+        <img src="assets/images/slider_3.jpg">
+        <img src="assets/images/slider_4.jpg">
+      </div>
     </div>
 <script>
-  $(function() {
-    $('.slider').slick();
+$(function() {
+  $('.slider').bxSlider({
+    mode: 'fade',
+    speed: 2000,
+    auto: true,
+    pause: 8000,
+    controls: false,
+    pager: false,
   });
+});
 </script>
   </body>
 </html>
