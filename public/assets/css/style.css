@@ -77,3 +77,38 @@ body {
   margin-bottom: 30px;
   line-height: 1.6;
 }
+#movie-container .movie {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #1b1b1b;
+  color: #fff;
+}
+#movie-container .movie .movie-item {
+  width: 60%;
+}
+#movie-container .movie .movie-item .movie-content {
+  width: 100%;
+  height: 400px;
+}
+#movie-container .movie .movie-description {
+  width: 40%;
+}
+#movie-container .movie .movie-description h2 {
+  margin-top: 20px;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+#movie-container .movie .movie-description span {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+#movie-container .movie .movie-description p {
+  margin: 0 20px;
+  font-size: 16px;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
