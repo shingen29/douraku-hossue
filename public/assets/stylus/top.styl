@@ -1,3 +1,10 @@
+pc()
+  @media screen and (min-width: 769px)
+    {block}
+sp()
+  @media screen and (max-width: 768px)
+    {block}
+
 body
   background url(../images/bg_01.png) repeat left top
 
@@ -53,8 +60,11 @@ body
     height 600px
     background-position center center
     background-repeat no-repeat
-    background-attachment fixed
+    //background-attachment fixed
     background-size cover
+    +sp()
+      height 300px
+
   /*
   img // キービジュアルにimgを使う場合はこちらを使用
     width 100% !important
@@ -86,9 +96,13 @@ body
     display flex
     background #1b1b1b
     color #fff
+    +sp()
+      display block
 
     .movie-item
       width 60%
+      +sp()
+        width 100%
 
       .movie-content
         width 100%
@@ -96,9 +110,11 @@ body
 
     .movie-description
       width 40%
+      +sp()
+        width 100%
 
       h2
-        margin-top 20px
+        padding-top 20px
         font-size 28px
         text-align center
         margin-bottom 15px
@@ -114,3 +130,13 @@ body
         font-size 16px
         margin-bottom 30px
         line-height 1.6
+
+.pc
+  display none
+  +pc()
+    display block
+
+.sp
+  display none
+  +sp()
+    display block
