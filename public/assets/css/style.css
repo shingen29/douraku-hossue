@@ -20,7 +20,7 @@ body {
   background-image: url("../images/slider_0.JPG");
 }
 #index0 .bx-caption {
-  top: 20px;
+  top: 10px;
   left: 20px;
 }
 #index1 {
@@ -34,22 +34,22 @@ body {
   background-image: url("../images/slider_2.JPG");
 }
 #index2 .bx-caption {
-  top: 80px;
-  left: 80px;
+  top: 50px;
+  left: 10px;
 }
 #index3 {
   background-image: url("../images/slider_3.JPG");
 }
 #index3 .bx-caption {
-  top: 110px;
-  left: 110px;
+  top: 10px;
+  left: 50px;
 }
 #index4 {
-  background-image: url("../images/slider_4.JPG");
+  background-image: url("../images/slider_5.JPG");
 }
 #index4 .bx-caption {
-  top: 140px;
-  left: 140px;
+  top: 50px;
+  left: 150px;
 }
 .slider .slider-item {
   height: 600px;
