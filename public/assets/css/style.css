@@ -65,18 +65,18 @@ body {
 .inner {
   padding: 100px 50px 50px;
 }
-#about h2 {
+.about h2 {
   font-size: 28px;
   text-align: center;
   margin-bottom: 15px;
 }
-#about span {
+.about span {
   display: block;
   font-size: 14px;
   text-align: center;
   margin-bottom: 50px;
 }
-#about p {
+.about p {
   font-size: 16px;
   margin-bottom: 30px;
   line-height: 1.6;
@@ -130,6 +130,26 @@ body {
   font-size: 16px;
   margin-bottom: 30px;
   line-height: 1.6;
+}
+.button {
+  text-align: center;
+}
+.button .square_btn {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-left: solid 4px #808080;
+  border-right: solid 4px #808080;
+  color: #808080;
+  background: #d3d3d3;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.button .square_btn:hover {
+  background: #808080;
+  color: #fff;
 }
 .pc {
   display: none;
