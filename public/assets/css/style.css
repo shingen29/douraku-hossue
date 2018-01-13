@@ -1,5 +1,6 @@
 body {
   background: url("../images/bg_01.png") repeat left top;
+  font-family: Sawarabi Mincho;
 }
 .bx-wrapper {
   margin: 0 !important;
