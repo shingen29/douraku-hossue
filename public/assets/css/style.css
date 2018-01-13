@@ -13,8 +13,14 @@ body {
 }
 .bx-wrapper .bx-caption span {
   color: #555;
-  font-size: 1.15em;
-  font-family: Arial;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: Kokoro;
+}
+@media screen and (max-width: 768px) {
+  .bx-wrapper .bx-caption span {
+    font-size: 1.2em;
+  }
 }
 #index0 {
   background-image: url("../images/slider_0.JPG");
